@@ -28,12 +28,11 @@ function ask (i) {
       ask(i + 1);
     });
   } else {
-    console.log(`${a[0]} loves listening to${a[2]} while${a[1]}, devouring ${a[4]} for${a[3]}, prefers ${a[5]} over any other sport, 
+    console.log(`${a[0]} loves listening to${a[2]} while${a[1]}, devouring ${a[4]} 
+    for${a[3]}, prefers ${a[5]} over any other sport, 
     and is amazing at ${a[6]}`);
     rl.close();
   }
 };
-
 ask(0);
 
-//COMPASS
